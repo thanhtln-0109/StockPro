@@ -1,0 +1,41 @@
+@media screen and (max-width: 992px) {
+
+    .dashboard-panel {
+
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+
+        flex-direction: column;
+    }
+
+    .sidebar {
+
+        width: 100%;
+
+        min-height: auto;
+    }
+
+    .dashboard {
+
+        padding: 24px;
+    }
+
+    .dashboard__header {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 20px;
+    }
+
+    .dashboard__title {
+
+        font-size: 32px;
+    }
+}

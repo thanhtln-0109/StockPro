@@ -1,0 +1,402 @@
+[
+    {
+        "id": 1,
+        "productId": 1,
+        "type": "import",
+        "quantity": 15,
+        "date": "2026-01-03",
+        "userId": 2
+    },
+    {
+        "id": 2,
+        "productId": 7,
+        "type": "export",
+        "quantity": 3,
+        "date": "2026-01-04",
+        "userId": 5
+    },
+    {
+        "id": 3,
+        "productId": 12,
+        "type": "import",
+        "quantity": 20,
+        "date": "2026-01-05",
+        "userId": 3
+    },
+    {
+        "id": 4,
+        "productId": 18,
+        "type": "export",
+        "quantity": 1,
+        "date": "2026-01-05",
+        "userId": 5
+    },
+    {
+        "id": 5,
+        "productId": 9,
+        "type": "import",
+        "quantity": 12,
+        "date": "2026-01-06",
+        "userId": 6
+    },
+    {
+        "id": 6,
+        "productId": 3,
+        "type": "export",
+        "quantity": 4,
+        "date": "2026-01-06",
+        "userId": 2
+    },
+    {
+        "id": 7,
+        "productId": 21,
+        "type": "import",
+        "quantity": 8,
+        "date": "2026-01-07",
+        "userId": 8
+    },
+    {
+        "id": 8,
+        "productId": 25,
+        "type": "export",
+        "quantity": 2,
+        "date": "2026-01-08",
+        "userId": 4
+    },
+    {
+        "id": 9,
+        "productId": 14,
+        "type": "import",
+        "quantity": 10,
+        "date": "2026-01-09",
+        "userId": 2
+    },
+    {
+        "id": 10,
+        "productId": 2,
+        "type": "export",
+        "quantity": 1,
+        "date": "2026-01-09",
+        "userId": 5
+    },
+    {
+        "id": 11,
+        "productId": 5,
+        "type": "import",
+        "quantity": 6,
+        "date": "2026-01-10",
+        "userId": 6
+    },
+    {
+        "id": 12,
+        "productId": 10,
+        "type": "export",
+        "quantity": 7,
+        "date": "2026-01-11",
+        "userId": 3
+    },
+    {
+        "id": 13,
+        "productId": 30,
+        "type": "import",
+        "quantity": 5,
+        "date": "2026-01-12",
+        "userId": 8
+    },
+    {
+        "id": 14,
+        "productId": 16,
+        "type": "export",
+        "quantity": 2,
+        "date": "2026-01-12",
+        "userId": 5
+    },
+    {
+        "id": 15,
+        "productId": 11,
+        "type": "import",
+        "quantity": 25,
+        "date": "2026-01-13",
+        "userId": 2
+    },
+    {
+        "id": 16,
+        "productId": 4,
+        "type": "export",
+        "quantity": 1,
+        "date": "2026-01-14",
+        "userId": 6
+    },
+    {
+        "id": 17,
+        "productId": 6,
+        "type": "import",
+        "quantity": 14,
+        "date": "2026-01-15",
+        "userId": 3
+    },
+    {
+        "id": 18,
+        "productId": 20,
+        "type": "export",
+        "quantity": 3,
+        "date": "2026-01-15",
+        "userId": 7
+    },
+    {
+        "id": 19,
+        "productId": 23,
+        "type": "import",
+        "quantity": 9,
+        "date": "2026-01-16",
+        "userId": 2
+    },
+    {
+        "id": 20,
+        "productId": 13,
+        "type": "export",
+        "quantity": 2,
+        "date": "2026-01-17",
+        "userId": 5
+    },
+    {
+        "id": 21,
+        "productId": 17,
+        "type": "import",
+        "quantity": 11,
+        "date": "2026-01-18",
+        "userId": 8
+    },
+    {
+        "id": 22,
+        "productId": 19,
+        "type": "export",
+        "quantity": 1,
+        "date": "2026-01-18",
+        "userId": 4
+    },
+    {
+        "id": 23,
+        "productId": 24,
+        "type": "import",
+        "quantity": 7,
+        "date": "2026-01-19",
+        "userId": 3
+    },
+    {
+        "id": 24,
+        "productId": 27,
+        "type": "export",
+        "quantity": 2,
+        "date": "2026-01-20",
+        "userId": 6
+    },
+    {
+        "id": 25,
+        "productId": 1,
+        "type": "export",
+        "quantity": 2,
+        "date": "2026-01-21",
+        "userId": 5
+    },
+    {
+        "id": 26,
+        "productId": 8,
+        "type": "import",
+        "quantity": 13,
+        "date": "2026-01-22",
+        "userId": 2
+    },
+    {
+        "id": 27,
+        "productId": 15,
+        "type": "export",
+        "quantity": 1,
+        "date": "2026-01-23",
+        "userId": 7
+    },
+    {
+        "id": 28,
+        "productId": 26,
+        "type": "import",
+        "quantity": 6,
+        "date": "2026-01-24",
+        "userId": 8
+    },
+    {
+        "id": 29,
+        "productId": 22,
+        "type": "export",
+        "quantity": 4,
+        "date": "2026-01-24",
+        "userId": 3
+    },
+    {
+        "id": 30,
+        "productId": 29,
+        "type": "import",
+        "quantity": 5,
+        "date": "2026-01-25",
+        "userId": 2
+    },
+    {
+        "id": 31,
+        "productId": 3,
+        "type": "import",
+        "quantity": 9,
+        "date": "2026-01-26",
+        "userId": 4
+    },
+    {
+        "id": 32,
+        "productId": 18,
+        "type": "export",
+        "quantity": 1,
+        "date": "2026-01-27",
+        "userId": 5
+    },
+    {
+        "id": 33,
+        "productId": 7,
+        "type": "import",
+        "quantity": 10,
+        "date": "2026-01-28",
+        "userId": 2
+    },
+    {
+        "id": 34,
+        "productId": 9,
+        "type": "export",
+        "quantity": 3,
+        "date": "2026-01-28",
+        "userId": 6
+    },
+    {
+        "id": 35,
+        "productId": 5,
+        "type": "import",
+        "quantity": 4,
+        "date": "2026-01-29",
+        "userId": 8
+    },
+    {
+        "id": 36,
+        "productId": 10,
+        "type": "export",
+        "quantity": 5,
+        "date": "2026-01-30",
+        "userId": 3
+    },
+    {
+        "id": 37,
+        "productId": 28,
+        "type": "import",
+        "quantity": 3,
+        "date": "2026-02-01",
+        "userId": 4
+    },
+    {
+        "id": 38,
+        "productId": 14,
+        "type": "export",
+        "quantity": 2,
+        "date": "2026-02-01",
+        "userId": 7
+    },
+    {
+        "id": 39,
+        "productId": 6,
+        "type": "import",
+        "quantity": 12,
+        "date": "2026-02-02",
+        "userId": 8
+    },
+    {
+        "id": 40,
+        "productId": 20,
+        "type": "export",
+        "quantity": 2,
+        "date": "2026-02-03",
+        "userId": 5
+    },
+    {
+        "id": 41,
+        "productId": 25,
+        "type": "import",
+        "quantity": 5,
+        "date": "2026-02-04",
+        "userId": 3
+    },
+    {
+        "id": 42,
+        "productId": 12,
+        "type": "export",
+        "quantity": 3,
+        "date": "2026-02-05",
+        "userId": 2
+    },
+    {
+        "id": 43,
+        "productId": 23,
+        "type": "import",
+        "quantity": 11,
+        "date": "2026-02-06",
+        "userId": 6
+    },
+    {
+        "id": 44,
+        "productId": 24,
+        "type": "export",
+        "quantity": 2,
+        "date": "2026-02-06",
+        "userId": 5
+    },
+    {
+        "id": 45,
+        "productId": 30,
+        "type": "import",
+        "quantity": 4,
+        "date": "2026-02-07",
+        "userId": 8
+    },
+    {
+        "id": 46,
+        "productId": 11,
+        "type": "export",
+        "quantity": 6,
+        "date": "2026-02-08",
+        "userId": 7
+    },
+    {
+        "id": 47,
+        "productId": 17,
+        "type": "import",
+        "quantity": 8,
+        "date": "2026-02-09",
+        "userId": 2
+    },
+    {
+        "id": 48,
+        "productId": 22,
+        "type": "export",
+        "quantity": 3,
+        "date": "2026-02-10",
+        "userId": 5
+    },
+    {
+        "id": 49,
+        "productId": 29,
+        "type": "import",
+        "quantity": 2,
+        "date": "2026-02-11",
+        "userId": 3
+    },
+    {
+        "id": 50,
+        "productId": 27,
+        "type": "export",
+        "quantity": 1,
+        "date": "2026-02-12",
+        "userId": 6
+    }
+]

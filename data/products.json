@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Apple MacBook Air M3 13-inch",
+        "category": "Laptop",
+        "price": 1499,
+        "supplierId": 1,
+        "quantity": 24
+    },
+    {
+        "id": 2,
+        "name": "Dell XPS 15 9530",
+        "category": "Laptop",
+        "price": 2199,
+        "supplierId": 2,
+        "quantity": 12
+    },
+    {
+        "id": 3,
+        "name": "ASUS ROG Strix G16",
+        "category": "Laptop Gaming",
+        "price": 1899,
+        "supplierId": 3,
+        "quantity": 18
+    },
+    {
+        "id": 4,
+        "name": "Lenovo ThinkPad X1 Carbon Gen 12",
+        "category": "Laptop",
+        "price": 2099,
+        "supplierId": 4,
+        "quantity": 10
+    },
+    {
+        "id": 5,
+        "name": "HP Spectre x360 14",
+        "category": "Laptop",
+        "price": 1749,
+        "supplierId": 5,
+        "quantity": 15
+    },
+    {
+        "id": 6,
+        "name": "Samsung Galaxy S24 Ultra",
+        "category": "Smartphone",
+        "price": 1399,
+        "supplierId": 6,
+        "quantity": 30
+    },
+    {
+        "id": 7,
+        "name": "iPhone 15 Pro Max",
+        "category": "Smartphone",
+        "price": 1599,
+        "supplierId": 1,
+        "quantity": 28
+    },
+    {
+        "id": 8,
+        "name": "Google Pixel 8 Pro",
+        "category": "Smartphone",
+        "price": 999,
+        "supplierId": 7,
+        "quantity": 20
+    },
+    {
+        "id": 9,
+        "name": "Sony WH-1000XM5",
+        "category": "Audio",
+        "price": 399,
+        "supplierId": 8,
+        "quantity": 35
+    },
+    {
+        "id": 10,
+        "name": "Apple AirPods Pro 2",
+        "category": "Audio",
+        "price": 249,
+        "supplierId": 1,
+        "quantity": 50
+    },
+    {
+        "id": 11,
+        "name": "Logitech MX Master 3S",
+        "category": "Mouse",
+        "price": 99,
+        "supplierId": 9,
+        "quantity": 60
+    },
+    {
+        "id": 12,
+        "name": "Logitech G Pro X Superlight 2",
+        "category": "Gaming Mouse",
+        "price": 159,
+        "supplierId": 9,
+        "quantity": 40
+    },
+    {
+        "id": 13,
+        "name": "Razer BlackWidow V4 Pro",
+        "category": "Keyboard",
+        "price": 229,
+        "supplierId": 10,
+        "quantity": 22
+    },
+    {
+        "id": 14,
+        "name": "SteelSeries Apex Pro TKL",
+        "category": "Keyboard",
+        "price": 199,
+        "supplierId": 10,
+        "quantity": 19
+    },
+    {
+        "id": 15,
+        "name": "Samsung Odyssey G8 OLED",
+        "category": "Monitor",
+        "price": 1299,
+        "supplierId": 6,
+        "quantity": 9
+    },
+    {
+        "id": 16,
+        "name": "LG UltraGear 27GR95QE",
+        "category": "Monitor",
+        "price": 999,
+        "supplierId": 6,
+        "quantity": 13
+    },
+    {
+        "id": 17,
+        "name": "Corsair RM850x",
+        "category": "Power Supply",
+        "price": 149,
+        "supplierId": 10,
+        "quantity": 26
+    },
+    {
+        "id": 18,
+        "name": "NVIDIA GeForce RTX 4090 Founders Edition",
+        "category": "GPU",
+        "price": 1999,
+        "supplierId": 7,
+        "quantity": 7
+    },
+    {
+        "id": 19,
+        "name": "AMD Radeon RX 7900 XTX",
+        "category": "GPU",
+        "price": 999,
+        "supplierId": 7,
+        "quantity": 11
+    },
+    {
+        "id": 20,
+        "name": "Intel Core i9-14900K",
+        "category": "CPU",
+        "price": 589,
+        "supplierId": 2,
+        "quantity": 17
+    },
+    {
+        "id": 21,
+        "name": "AMD Ryzen 9 7950X3D",
+        "category": "CPU",
+        "price": 699,
+        "supplierId": 7,
+        "quantity": 14
+    },
+    {
+        "id": 22,
+        "name": "Samsung 990 Pro 2TB",
+        "category": "SSD",
+        "price": 189,
+        "supplierId": 6,
+        "quantity": 33
+    },
+    {
+        "id": 23,
+        "name": "WD Black SN850X 2TB",
+        "category": "SSD",
+        "price": 179,
+        "supplierId": 8,
+        "quantity": 29
+    },
+    {
+        "id": 24,
+        "name": "Seagate FireCuda 530 2TB",
+        "category": "SSD",
+        "price": 199,
+        "supplierId": 8,
+        "quantity": 21
+    },
+    {
+        "id": 25,
+        "name": "ASUS TUF Gaming B650-PLUS WIFI",
+        "category": "Motherboard",
+        "price": 249,
+        "supplierId": 3,
+        "quantity": 16
+    },
+    {
+        "id": 26,
+        "name": "MSI MPG Z790 Carbon WIFI",
+        "category": "Motherboard",
+        "price": 399,
+        "supplierId": 3,
+        "quantity": 12
+    },
+    {
+        "id": 27,
+        "name": "NZXT H9 Flow",
+        "category": "PC Case",
+        "price": 179,
+        "supplierId": 10,
+        "quantity": 18
+    },
+    {
+        "id": 28,
+        "name": "Elgato Stream Deck XL",
+        "category": "Streaming",
+        "price": 249,
+        "supplierId": 10,
+        "quantity": 8
+    },
+    {
+        "id": 29,
+        "name": "Meta Quest 3",
+        "category": "VR",
+        "price": 649,
+        "supplierId": 7,
+        "quantity": 9
+    },
+    {
+        "id": 30,
+        "name": "DJI Mini 4 Pro",
+        "category": "Drone",
+        "price": 999,
+        "supplierId": 8,
+        "quantity": 6
+    }
+]

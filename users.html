@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Người dùng</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+
+<div id="bootScreen">
+
+    <div class="boot-door boot-door--left"></div>
+
+    <div class="boot-door boot-door--right"></div>
+
+    <div class="boot-core">
+
+        <div class="boot-core__ring"></div>
+
+        <div class="boot-core__center"></div>
+
+        <p class="boot-text">
+            INITIALIZING STOCKPRO SYSTEM
+        </p>
+
+    </div>
+
+</div>
+
+<div class="overlay"></div>
+
+<aside class="sidebar">
+
+    <div class="sidebar__top">
+
+        <img
+            src="./assets/icons/logo.png"
+            class="sidebar__logo-image"
+        >
+
+        <h1 class="sidebar__logo-text">
+            StockPro
+        </h1>
+
+    </div>
+
+    <nav class="sidebar__nav">
+
+        <a href="index.html" class="sidebar__link">
+            Dashboard
+        </a>
+
+        <a href="products.html" class="sidebar__link">
+            Sản phẩm
+        </a>
+
+        <a href="suppliers.html" class="sidebar__link">
+            Nhà cung cấp
+        </a>
+
+        <a href="transactions.html" class="sidebar__link">
+            Giao dịch
+        </a>
+
+        <a href="users.html" class="sidebar__link active">
+            Người dùng
+        </a>
+
+    </nav>
+
+</aside>
+
+<main class="dashboard">
+
+    <header class="dashboard__header">
+
+        <div>
+
+            <p class="dashboard__subtitle">
+                USER MANAGEMENT
+            </p>
+
+            <h2 class="dashboard__title">
+                Người dùng hệ thống
+            </h2>
+
+        </div>
+
+    </header>
+
+    <section class="panel">
+
+        <div class="table-wrapper">
+
+            <table class="cyber-table">
+
+                <thead>
+
+                    <tr>
+                        <th>ID</th>
+                        <th>Username</th>
+                        <th>Role</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="usersTableBody"></tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="./js/api.js"></script>
+<script src="./js/users.js"></script>
+<script src="./js/transition.js"></script>
+
+</body>
+</html>

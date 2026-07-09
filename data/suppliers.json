@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "contact": "contact@apple.com"
+    },
+    {
+        "id": 2,
+        "name": "Dell Technologies",
+        "contact": "support@dell.com"
+    },
+    {
+        "id": 3,
+        "name": "ASUS",
+        "contact": "service@asus.com"
+    },
+    {
+        "id": 4,
+        "name": "Lenovo",
+        "contact": "support@lenovo.com"
+    },
+    {
+        "id": 5,
+        "name": "HP",
+        "contact": "support@hp.com"
+    },
+    {
+        "id": 6,
+        "name": "Samsung",
+        "contact": "support@samsung.com"
+    },
+    {
+        "id": 7,
+        "name": "Google Hardware",
+        "contact": "store-support@google.com"
+    },
+    {
+        "id": 8,
+        "name": "Sony Electronics",
+        "contact": "customersupport@sony.com"
+    },
+    {
+        "id": 9,
+        "name": "Logitech",
+        "contact": "support@logitech.com"
+    },
+    {
+        "id": 10,
+        "name": "Razer",
+        "contact": "support@razer.com"
+    }
+]

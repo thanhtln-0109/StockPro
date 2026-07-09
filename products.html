@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>StockPro - Products</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- BOOT SCREEN -->
+
+    <div id="bootScreen">
+
+        <div class="boot-door boot-door--left"></div>
+
+        <div class="boot-door boot-door--right"></div>
+
+        <div class="boot-core">
+
+            <div class="boot-core__ring"></div>
+
+            <div class="boot-core__center"></div>
+
+            <p class="boot-text">
+                INITIALIZING STOCKPRO SYSTEM
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- BACKGROUND OVERLAY -->
+
+    <div class="overlay"></div>
+
+    <!-- SIDEBAR -->
+
+    <aside class="sidebar">
+
+        <div class="sidebar__top">
+
+            <img
+                src="./assets/icons/logo.png"
+                alt="Logo"
+                class="sidebar__logo-image"
+            >
+
+            <h1 class="sidebar__logo-text">
+                StockPro
+            </h1>
+
+        </div>
+
+        <nav class="sidebar__nav">
+
+            <a href="index.html" class="sidebar__link">
+                Dashboard
+            </a>
+
+            <a
+                href="products.html"
+                class="sidebar__link active"
+            >
+                Sản phẩm
+            </a>
+
+            <a
+                href="suppliers.html"
+                class="sidebar__link"
+            >
+                Nhà cung cấp
+            </a>
+
+            <a
+                href="transactions.html"
+                class="sidebar__link"
+            >
+                Giao dịch
+            </a>
+
+            <a
+                href="users.html"
+                class="sidebar__link"
+            >
+                Người dùng
+            </a>
+
+        </nav>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+
+    <main class="dashboard">
+
+        <header class="dashboard__header">
+
+            <div>
+
+                <p class="dashboard__subtitle">
+                    PRODUCT MANAGEMENT
+                </p>
+
+                <h2 class="dashboard__title">
+                    Quản lý sản phẩm
+                </h2>
+
+            </div>
+
+            <button
+                class="cyber-button"
+                id="openProductModal"
+            >
+                + Thêm sản phẩm
+            </button>
+
+        </header>
+
+        <!-- PRODUCT PANEL -->
+
+        <section class="panel">
+
+            <div class="table-toolbar">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    class="cyber-input"
+                    placeholder="Tìm kiếm sản phẩm..."
+                >
+
+            </div>
+
+            <div class="table-wrapper">
+
+                <table class="cyber-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>ID</th>
+
+                            <th>Tên</th>
+
+                            <th>Danh mục</th>
+
+                            <th>Giá</th>
+
+                            <th>Tồn kho</th>
+
+                            <th>Hành động</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="productsTableBody"></tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- CUSTOM MODAL -->
+
+    <div
+        class="modal"
+        id="productModal"
+    >
+
+        <div class="modal__backdrop"></div>
+
+        <div class="modal__content">
+
+            <div class="modal__header">
+
+                <h2>
+                    Thêm sản phẩm
+                </h2>
+
+                <button
+                    class="modal__close"
+                    id="closeProductModal"
+                >
+                    ✕
+                </button>
+
+            </div>
+
+            <form
+                id="productForm"
+                class="cyber-form"
+            >
+
+                <input
+                    type="text"
+                    id="productName"
+                    class="cyber-input"
+                    placeholder="Tên sản phẩm"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="productCategory"
+                    class="cyber-input"
+                    placeholder="Danh mục"
+                    required
+                >
+
+                <input
+                    type="number"
+                    id="productPrice"
+                    class="cyber-input"
+                    placeholder="Giá"
+                    required
+                >
+
+                <input
+                    type="number"
+                    id="productQuantity"
+                    class="cyber-input"
+                    placeholder="Số lượng"
+                    required
+                >
+
+                <button
+                    type="submit"
+                    class="cyber-button"
+                >
+                    Lưu sản phẩm
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="./js/api.js"></script>
+
+    <script src="./js/products.js"></script>
+
+    <script src="./js/transition.js"></script>
+
+</body>
+
+</html>
